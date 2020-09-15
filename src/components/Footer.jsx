@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer style={bgStyle} className="mt-auto py-3 text-center">
       {/* <strong> &copy; 2019 </strong>*/}
-      <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
+      {/* <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
       <a
         className="badge badge-dark"
         rel="noopener"
@@ -15,12 +15,11 @@ const Footer = () => {
       >
         Hashir Shoaib
       </a>{" "}
-      using <i className="fab fa-react"></i>
+      using <i className="fab fa-react"></i> */}
       <p>
         <small className="text-muted">
           {" "}
-          Project code is open source. Feel free to fork and make your own
-          version.
+         Larissa Guder - 2020
         </small>
       </p>
     </footer>

@@ -59,7 +59,7 @@ const AboutMe = () => {
             <p className="lead text-center">{aboutDescription}</p>
             {resumeURL && (
               <p className="lead text-center">
-                <a
+                {/* <a
                   className="btn btn-outline-dark btn-lg"
                   href={Pdf}
                   target="_blank"
@@ -68,7 +68,7 @@ const AboutMe = () => {
                   aria-label="Resume/CV"
                 >
                   Resume
-                </a>
+                </a> */}
               </p>
             )}
           </div>
